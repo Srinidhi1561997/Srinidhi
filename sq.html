@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+table{
+background-color:#00cccc;
+padding:40px;
+width:50%;
+border:1px;
+border-collapse:collapse;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+ th {
+background-color:red;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align:center;
+}
+
+
+</style>
+</head>
+<body>
+<script>
+document.write("<center><table><tr><th>Number</th><th>Square</th><th>Cube</th></tr>")
+for(var i=0;i<=10;i++)
+{
+document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td></tr>")
+}
+document.write("</table></center>")
+</script>
+</body>
+</html>
